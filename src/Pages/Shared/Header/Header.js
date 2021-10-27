@@ -9,6 +9,7 @@ import { FaUserAlt } from "react-icons/fa";
 const Header = () => {
 
     const { user, logOut } = useAuth();
+    console.log(user);
     return (
         <>
             <Navbar bg="dark" variant="dark" sticky="top" collapseOnSelect expand="lg">
